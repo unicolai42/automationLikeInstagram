@@ -1,0 +1,29 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "all my scripts",
+  "main": "index.js",
+  "scripts": {
+    "ytSubscribeStart": "launchctl load /Library/LaunchDaemons/local.runYoutubeSubscribeScript.plist",
+    "ytSubscribeStop": "launchctl unload /Library/LaunchDaemons/local.runYoutubeSubscribeScript.plist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unicolai42/Scripts.git"
+  },
+  "author": "unicolai42",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unicolai42/Scripts/issues"
+  },
+  "homepage": "https://github.com/unicolai42/Scripts#readme",
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "es6-promisify": "^6.0.1",
+    "googleapis": "^27.0.0",
+    "proxy-chain": "^0.2.7",
+    "puppeteer": "^1.14.0",
+    "request": "^2.88.0"
+  }
+}
