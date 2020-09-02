@@ -21,7 +21,7 @@
   "dependencies": {
     "dateformat": "^3.0.3",
     "es6-promisify": "^6.0.1",
-    "googleapis": "^27.0.0",
+    "googleapis": "^39.1.0",
     "proxy-chain": "^0.2.7",
     "puppeteer": "^1.14.0",
     "request": "^2.88.0"
